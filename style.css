@@ -1,11 +1,19 @@
-body{
-    background-color: #cccccc;
+
+.titulo-principal{
+    text-align: left;
+    padding-left: 30px;
 }
+
 #banner{
     width: 100%;
 }
-h1{
-    text-align: center;
+.principal{
+    
+    background-color: #cccccc;
+    padding: 20px;
+}
+.titulo-centralizado{
+text-align: center;
 }
 
 p{
@@ -21,6 +29,21 @@ em strong{
     font-size: 20px;
 }
 
+.diferenciales{
+    background-color: white;
+    padding: 30px;
+}
 .items{
     font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align:top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferencial{
+width: 50%;
 }
