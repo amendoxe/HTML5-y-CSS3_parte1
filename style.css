@@ -1,6 +1,7 @@
 header {
 background-color: #BBBBBB;
 padding: 20px;
+
 }
 .caja{
     width: 940px;
@@ -57,13 +58,24 @@ em strong{
     font-style: italic;
 }
 
-ul{
+.ulDiferenciales{
     display: inline-block;
     vertical-align:top;
-    width: 20%;
+    width: 30%;
     margin-right: 15%;
+    margin-left: auto;
 }
 
 .imagenDiferencial{
 width: 50%;
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+
 }
