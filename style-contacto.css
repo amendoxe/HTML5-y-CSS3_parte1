@@ -67,9 +67,19 @@ form label, form legend{
     transform:scale(1.1) rotate(3deg);
 
 }
+thead{
+    background-color: #BBBBBB;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 2px solid black;
+    padding: 8px 15px;
+}
 
-
-
+table{
+    margin: 40px 40px;
+}
 footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
