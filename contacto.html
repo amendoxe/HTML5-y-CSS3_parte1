@@ -27,7 +27,53 @@
 
 
 <main>
-    test
+    <form>
+        
+        <label for="nombreapellido">Nombre y Apellido: </label>
+        <input type="text" id="nombreapellido" class="input-padron">
+        
+        <label for="correoelectronico">Correo Electrónico: </label>
+        <input type="text" id="correoelectronico" class="input-padron">
+        
+        <label for="telefono">Teléfono: </label>
+        <input type="text" name="" id="telefono" class="input-padron">
+        
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+        <br>
+        
+        
+        <div >
+            
+            <p>Medio de contacto</p>
+            
+            <label for="radio-email">
+            <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+            <label for="radio-email">
+            <input type="radio" name="contacto" value="telefono" id="radio-email">Teléfono</label>
+            
+            <label for="radio-email">
+            <input type="radio" name="contacto" value="whatsapp" id="radio-email">Whatsapp</label>
+        </div>
+        
+        <div>
+        <p>En cual horario prefiere ser atendido?</p>
+        <select name="" id="">
+            <option value="Mañana">Mañana</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noche">Noche</option>
+        </select>
+        </div>
+
+        <label for="checkbox" class="checkbox">
+            <input type="checkbox" name="checkbox" id="">¿Le gustaría recibir novedades de la Barbería Alura?
+        </label>
+
+        <input type="submit" value="Enviar Formulario">
+            
+    </form>
+
 </main>
 
 
